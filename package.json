@@ -1,0 +1,35 @@
+{
+  "name": "tiny-babel-plugin",
+  "version": "1.0.0",
+  "description": "A tiny Babel's plugin for understanding transpile processes.",
+  "main": "index.js",
+  "scripts": {
+    "non-plugin": "node non-plugin-example/index.js",
+    "plugin": "babel plugin-example/input.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/yinm/tiny-babel-plugin.git"
+  },
+  "author": "yinm",
+  "license": "MIT",
+  "keywords": [
+    "babel",
+    "babel-plugin",
+    "ast"
+  ],
+  "bugs": {
+    "url": "https://github.com/yinm/tiny-babel-plugin/issues"
+  },
+  "homepage": "https://github.com/yinm/tiny-babel-plugin#readme",
+  "dependencies": {
+    "@babel/generator": "^7.5.5",
+    "@babel/parser": "^7.5.5",
+    "@babel/traverse": "^7.5.5"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "babel-log": "^2.0.0"
+  }
+}
